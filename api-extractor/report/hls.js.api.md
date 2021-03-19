@@ -8,10 +8,8 @@
 //
 // @public (undocumented)
 export type ABRControllerConfig = {
-    abrEwmaFastLive: number;
-    abrEwmaSlowLive: number;
-    abrEwmaFastVoD: number;
-    abrEwmaSlowVoD: number;
+    abrEwmaFast: number;
+    abrEwmaSlow: number;
     abrEwmaDefaultEstimate: number;
     abrBandWidthFactor: number;
     abrBandWidthUpFactor: number;
